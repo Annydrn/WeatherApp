@@ -1,10 +1,10 @@
 .App {
     width: 100%;
-    min-height: 100vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(../public/img/sunshine.avif);
+    background-image: url(./public/img/cloudy-day.avif);
     background-position: center ;
 background-repeat: no-repeat;
 background-size: cover;
@@ -14,8 +14,8 @@ background-attachment: fixed;
 .card {
     width: 100%;
     max-width: 400px;
-    height: 80vh;
-    background-color: rgba(100, 120, 69, 0.6);
+    height: auto;
+    background-color: rgba(78, 100, 46, 0.6);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px #ff15;
